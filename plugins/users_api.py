@@ -14,8 +14,8 @@ from plugins.clone import mongo_db
 # Ask Doubt on telegram @KingVJ01
 
 async def get_short_link(user, link):
-    api_key = user["ad3c25cf4d2bff2936198d332eb72ee5574692c4"]
-    base_site = user["adrinolinks.in"]
+    api_key = user["shortener_api"]
+    base_site = user["base_site"]
     print(user)
     response = requests.get(f"https://{base_site}/api?api={api_key}&url={link}")
     data = response.json()
