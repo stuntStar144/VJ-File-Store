@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24850443"))
 API_HASH = environ.get("API_HASH", "0645e0bfc4580fb4c3d64a07f0c48936")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3182e1361b8cb76e1efd0.jpg https://telegra.ph/file/e65a396de2b50eb40f183.jpg https://telegra.ph/file/ac43847bc5c825fb55807.jpg https://telegra.ph/file/d8dc2f5e30aa3fec322d5.jpg https://telegra.ph/file/b8441cccad4be7c45342a.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7816208193').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "PlexRipFilterrbot") # without @
 PORT = environ.get("PORT", "8080")
@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://stuntstarr.blogspot.com/2025/06/redirecting-to-your-link-code-credit_3.html") # For More Information Check Video On Yt - @Tech_VJ
