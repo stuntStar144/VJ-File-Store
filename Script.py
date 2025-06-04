@@ -11,11 +11,7 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b> {file_name}
-
-
-
-Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/PlexRip)</b>""" 
+    CAPTION = """<b>{file_name}</b>\n\n<b>⏤͟͞𝗝⌡𝗼𝗶𝗻 ➥「 @PlexRip 」</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
